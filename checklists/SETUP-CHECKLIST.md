@@ -1,0 +1,11 @@
+# New-machine setup checklist
+- [ ] Clone/copy this folder
+- [ ] `./setup.sh` (ffmpeg, venv, whisper, scenedetect) finishes with no `[!!]` in doctor output
+- [ ] Claude Code installed and logged in; open it in this folder's root
+- [ ] (Optional) invideo / Canva connectors added in Claude settings, for motion graphics and stock
+- [ ] Fill `brand/brand-kit.md`; add fonts to `brand/fonts/`, logo to `brand/logo.png`
+- [ ] Add 2–5 references to `refs/` and describe them in `refs/notes.md`
+- [ ] `./scripts/new_project.sh test-reel`, drop 2–3 clips in `raw/`, fill `brief.md`
+- [ ] Run the kickoff prompt (`prompts/kickoff-prompt.md`) and walk through GATE 1–3 once end to end
+- [ ] Confirm `scripts/qa_check.sh` passes on the first export
+- [ ] Commit the folder to your own private repo; keep footage out of git (see .gitignore) or use Git LFS / cloud storage

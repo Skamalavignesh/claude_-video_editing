@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+projects/*/raw/*
+projects/*/proxies/*
+projects/*/exports/*
+projects/*/audio/*
+refs/*.mp4
+refs/*.mov
+!**/.gitkeep
+*.DS_Store
